@@ -2,9 +2,10 @@
 title: ykaseng
 subtitle: Ka Seng Yang
 email: kaseng.y@gmail.com
+name: ykaseng
 description: Learn more about me and my work here!
-baseurl: # the subpath of your site, e.g. /blog
 url: "http://ykaseng.com" # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog
 author:
 street_address:
 city: 
@@ -28,6 +29,7 @@ linkedin_url:
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/ykaseng
+rss_url: http://ykaseng.com/feed.xml
 
 # build settings
 markdown: kramdown

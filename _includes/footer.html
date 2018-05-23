@@ -92,6 +92,12 @@
 					<span class="label">LinkedIn</span>
 				</a>
 			</li>
+			{% endif %} {% if site.rss_url %}
+			<li>
+				<a href="{{ site.rss_url }}" class="icon alt fa-rss" target="_blank">
+					<span class="label">RSS</span>
+				</a>
+			</li>
 			{% endif %}
 		</ul>
 		<ul class="copyright">
