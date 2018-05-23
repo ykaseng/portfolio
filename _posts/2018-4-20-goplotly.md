@@ -2,7 +2,6 @@
 layout: post
 title: go-plotly
 description: gRPC Plotting Microservice
-categories: Go, Docker, gRPC, websocket, google-cloud-platform, plotly
 image: assets/images/chart.jpeg
 ---
 

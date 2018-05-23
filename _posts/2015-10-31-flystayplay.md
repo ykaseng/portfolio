@@ -2,7 +2,6 @@
 layout: post
 title: Final Year Project
 description: Fly Stay Play
-categories: Go, Java, Eventful, Expedia, Factual, Google QPX Express, Google Maps Platform, REST
 image: assets/images/utas.jpg
 ---
 
