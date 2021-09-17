@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import bootstrap from 'bootstrap'
 import Header from '@/components/Header'
 
 export default {
@@ -51,33 +50,25 @@ export default {
   --RST-COLOR:  #dfaf87;
 }
 
-html {
+body {
   background-color: var(--BG-COLOR);
   font-family: Tamzen;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: var(--WHT-COLOR);
 }
 
 #app {
-  font-family: Tamzen;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: var(--WHT-COLOR);
-}
-
-#nav {
-  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: var(--GRY-COLOR);
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: var(--GRN-COLOR);
 }
 </style>

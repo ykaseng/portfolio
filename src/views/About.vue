@@ -1,10 +1,24 @@
 <template>
-  <div class="row">
-    <Contact />
-    <Background />
-    <Skills />
-    <Traits />
-    <Career />
+  <div class="row g-0">
+    <div class="col col-12 col-md-6">
+      <Contact />
+    </div>
+    <div class="col col-12 col-md-6">
+      <Skills />
+    </div>
+  </div>
+  <div class="row g-0">
+    <div class="col col-12 col-md-8">
+      <Background />
+    </div>
+    <div class="col col-12 col-md-4">
+      <Traits />
+    </div>
+  </div>
+  <div class="row g-0">
+    <div class="col col-12">
+      <Career />
+    </div>
   </div>
 </template>
 
@@ -27,6 +41,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 </style>
