@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import bootstrap from 'bootstrap'
 import Header from '@/components/Header'
 
 export default {
