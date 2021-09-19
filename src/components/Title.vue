@@ -30,13 +30,38 @@ export default {
     }
 }
 
+@keyframes pixelate {
+    0% {
+        color: var(--WHT-COLOR);
+        content: '▓';
+        /* border: 1px solid red; */
+    }
+    100% {
+        color: var(--WHT-COLOR);
+        content: '░';
+    }
+}
+
 .title-container {
     text-transform: uppercase;
     text-align: left;
-    padding: 0 1em;
     color: var(--BLK-COLOR);
 
     animation: fillIn 2s ease-out 0s 1;
     background: var(--WHT-COLOR);
+}
+
+.title-container::before {
+    position: relative;
+    color: var(--WHT-COLOR);
+    content: '▓';
+    left: -.2em;
+    animation: pixelate .5s steps(20) 0s 4;
+}
+
+.title-container::after {
+    float: right;
+    color: var(--BG-COLOR);
+    content: '░░';
 }
 </style>
