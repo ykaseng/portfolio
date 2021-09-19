@@ -9,7 +9,7 @@
     <Label title="location" description="malaysia" />
     <b>ADDITIONAL INFO</b>
     <Label title="age" description="28" />
-    <Label title="phone" description="+601161936544" />
+    <Label title="gender" description="male" />
   </div>
 </template>
 

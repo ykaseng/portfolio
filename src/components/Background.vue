@@ -1,5 +1,5 @@
 <template>
-  <div class="background-container">
+  <div class="container">
     <Title title="Background Check" />
     <b>EDUCATION</b>
     <Label title="university of tasmania" description="2014-2016" />
@@ -23,7 +23,4 @@ export default {
 </script>
 
 <style>
-.background-container {
-    margin: 0 1em 0 0;
-}
 </style>
