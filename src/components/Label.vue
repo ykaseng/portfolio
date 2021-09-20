@@ -1,9 +1,9 @@
 <template>
   <div class="container row g-0">
-      <div class="title-container col" ref="titleC">
+      <div class="title-container col col-8" ref="titleC">
           <p class="title">{{ title }}</p>
       </div>
-      <div class="description-container col" ref="descriptionC">
+      <div class="description-container col col-4" ref="descriptionC">
           <p v-show="showDesc" class="description">{{ description }}</p>
           <!-- <p class="description">{{ description }}</p> -->
       </div>
@@ -13,6 +13,14 @@
 <script>
 export default {
     name: 'Label',
+    props: {
+        title: String,
+        description: String,
+        chars: {
+            default: '!<>-_\\/[]{}—=+*^?#________',
+            type: String            
+        }
+    },
     mounted() {
         this.titleEl=this.$refs.titleC
         this.descEl=this.$refs.descriptionC
@@ -78,14 +86,6 @@ export default {
         },
         randomChar() {
             return this.chars[Math.floor(Math.random() * this.chars.length)]
-        }
-    },
-    props: {
-        title: String,
-        description: String,
-        chars: {
-            default: '!<>-_\\/[]{}—=+*^?#________',
-            type: String            
         }
     },
 }
