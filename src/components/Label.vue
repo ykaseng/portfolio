@@ -13,6 +13,14 @@
 <script>
 export default {
     name: 'Label',
+    props: {
+        title: String,
+        description: String,
+        chars: {
+            default: '!<>-_\\/[]{}—=+*^?#________',
+            type: String            
+        }
+    },
     mounted() {
         this.titleEl=this.$refs.titleC
         this.descEl=this.$refs.descriptionC
@@ -80,22 +88,10 @@ export default {
             return this.chars[Math.floor(Math.random() * this.chars.length)]
         }
     },
-    props: {
-        title: String,
-        description: String,
-        chars: {
-            default: '!<>-_\\/[]{}—=+*^?#________',
-            type: String            
-        }
-    },
 }
 </script>
 
 <style scoped>
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
 
 .container {
     display: flex;
@@ -103,12 +99,7 @@ export default {
     justify-content: space-between;
 }
 
-.container p {
-    margin-bottom: unset;
-}
-
 .description-container {
-    /* float: right; */
     text-align: right;
 }
 
@@ -117,10 +108,7 @@ export default {
 }
 
 .title, .description {
-    /* width: 0; */
     overflow: hidden;
     white-space: nowrap;
-    /* animation: typing 3.5s steps(30, end) 2s;
-    animation-fill-mode: forwards; */
 }
 </style>

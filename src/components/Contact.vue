@@ -4,9 +4,9 @@
         <b>Ka Seng</b>
     </div>
     <Title title="Contact Info" />
-    <Label title="phone" description="+601161936544" />
     <Label title="email" description="me@ykaseng.com" />
-    <Label title="location" description="malaysia" />
+    <Label title="matrix" description="@Kr8iomyMjgbXD3Hr" style="max-height: 1.5em" />
+    <Label title="location" description="63°25'59.99&quot;N 10°53'59.99&quot;E" style="height: 3em" />
     <b>ADDITIONAL INFO</b>
     <Label title="age" description="28" />
     <Label title="gender" description="male" />

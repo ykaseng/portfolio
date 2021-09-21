@@ -46,6 +46,7 @@ export default {
     text-transform: uppercase;
     text-align: left;
     color: var(--BLK-COLOR);
+    margin: 1em 0;
 
     animation: fillIn 2s ease-out 0s 1;
     background: var(--WHT-COLOR);

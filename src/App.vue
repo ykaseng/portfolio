@@ -58,6 +58,10 @@ body {
   color: var(--WHT-COLOR);
 }
 
+p {
+  margin: unset;
+}
+
 #app {
   max-width: 800px;
   margin: 0 auto;
