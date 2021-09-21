@@ -1,22 +1,22 @@
 <template>
   <div class="row g-0">
-    <div class="col col-12 col-md-6">
+    <div class="contact-col col col-12 col-md-4">
       <Contact />
     </div>
-    <div class="col col-12 col-md-6">
+    <div class="skills-col col col-12 col-md-8">
       <Skills />
     </div>
   </div>
   <div class="row g-0">
-    <div class="col col-12 col-md-8">
+    <div class="background-col col col-12 col-md-8">
       <Background />
     </div>
-    <div class="col col-12 col-md-4">
+    <div class="traits-col col col-12 col-md-4">
       <Traits />
     </div>
   </div>
   <div class="row g-0">
-    <div class="col col-12">
+    <div class="career-col col col-12">
       <Career />
     </div>
   </div>
@@ -42,4 +42,9 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (min-width: 768px) {
+  .contact-col, .background-col {
+    padding-right: 1em;
+  }
+}
 </style>

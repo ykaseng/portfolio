@@ -18,11 +18,6 @@ export default {
 <style scoped>
 .description-container {
     text-transform: uppercase;
-    margin: 0 2em;
-}
-
-.description-container p {
-    margin-bottom: unset;
-    max-width: 80%;
+    padding-left: 2em;
 }
 </style>

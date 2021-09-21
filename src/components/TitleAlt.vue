@@ -1,8 +1,6 @@
 <template>
-    <div class="container">
-        <div class="title-container">
-            <b class="title">{{ title }}</b>
-        </div>
+    <div class="title-container">
+        <b class="title">{{ title }}</b>
     </div>
 </template>
 
@@ -43,13 +41,11 @@ export default {
     to { width: 100% }
 }
 
-.container {
-    overflow: hidden;
-}
-
 .title-container {
     display: flex;
     border-bottom: 1px solid var(--WHT-COLOR);
+    margin: 1em 0;
+    overflow: hidden;
 
     text-transform: uppercase;
     text-align: left;
@@ -61,7 +57,7 @@ export default {
     overflow: hidden;
     white-space: nowrap;
     /* letter-spacing: .15em; */
-    animation: typing 5s steps(30, end);
+    animation: typing 3.5s steps(30, end);
 }
 
 </style>

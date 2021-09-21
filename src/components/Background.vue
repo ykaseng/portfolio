@@ -48,9 +48,9 @@ export default {
   animation-delay: 1.5s;
 }
 /deep/ .container:nth-child(7) .description {
-  animation-delay: 1.7s;
+  animation-delay: 1.6s;
 }
 /deep/ .container:nth-child(9) .description {
-  animation-delay: 1.9s;
+  animation-delay: 1.7s;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div class="container row g-0">
-      <div class="title-container col col-8" ref="titleC">
+      <div class="title-container col" ref="titleC">
           <p class="title">{{ title }}</p>
       </div>
-      <div class="description-container col col-4" ref="descriptionC">
+      <div class="description-container col" ref="descriptionC">
           <p v-show="showDesc" class="description">{{ description }}</p>
           <!-- <p class="description">{{ description }}</p> -->
       </div>
@@ -92,10 +92,6 @@ export default {
 </script>
 
 <style scoped>
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
 
 .container {
     display: flex;
@@ -103,12 +99,7 @@ export default {
     justify-content: space-between;
 }
 
-.container p {
-    margin-bottom: unset;
-}
-
 .description-container {
-    /* float: right; */
     text-align: right;
 }
 
@@ -117,10 +108,7 @@ export default {
 }
 
 .title, .description {
-    /* width: 0; */
     overflow: hidden;
     white-space: nowrap;
-    /* animation: typing 3.5s steps(30, end) 2s;
-    animation-fill-mode: forwards; */
 }
 </style>

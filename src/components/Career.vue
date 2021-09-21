@@ -2,7 +2,7 @@
   <div class="container">  
     <Title title="Career History" />
     <Label title="vinda group sea" description="2018-2021" />
-      <Description description="design, develop and maintain disributed microservices" />
+      <Description description="develop and maintain disributed microservices" />
       <Description description="develop and maintain internal and external web applications" />
       <Description description="automate and streamline internal processes" />
     <Label title="rhino designs" description="2017-2018" />
@@ -11,7 +11,7 @@
       <Description description="develop and maintain scraper bots" />
       <Description description="research and implement quantitative trading strategies" />
     <Label title="zalora malaysia" description="2013-2014" />
-      <Description description="design, develop and maintain web based applications" />
+      <Description description="develop and maintain web based applications" />
       <Description description="develop and maintain sms based customer and seller engagement system" />
       <Description description="develop and maintain data visualization tools" />
   </div>
@@ -55,35 +55,35 @@ export default {
 }
 
 /deep/ .container:nth-child(3) .description {
-  animation-delay: 2s;
+  animation-delay: 1.8s;
 }
 /deep/ .container:nth-child(4) .description {
-  animation-delay: 2.1s;
+  animation-delay: 1.9s;
 }
 /deep/ .container:nth-child(5) .description {
-  animation-delay: 2.2s;
+  animation-delay: 2s;
 }
 
 /deep/ .container:nth-child(7) .description {
-  animation-delay: 2.3s;
+  animation-delay: 2.1s;
 }
 /deep/ .container:nth-child(8) .description {
-  animation-delay: 2.4s;
+  animation-delay: 2.2s;
 }
 /deep/ .container:nth-child(9) .description {
-  animation-delay: 2.5s;
+  animation-delay: 2.3s;
 }
 /deep/ .container:nth-child(10) .description {
-  animation-delay: 2.6s;
+  animation-delay: 2.4s;
 }
 
 /deep/ .container:nth-child(12) .description {
-  animation-delay: 2.7s;
+  animation-delay: 2.5s;
 }
 /deep/ .container:nth-child(13) .description {
-  animation-delay: 2.8s;
+  animation-delay: 2.6s;
 }
 /deep/ .container:nth-child(14) .description {
-  animation-delay: 2.9s;
+  animation-delay: 2.7s;
 }
 </style>
