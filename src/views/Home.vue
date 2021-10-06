@@ -1,11 +1,16 @@
 <template>
   <div class="home">
-    <h1>Home page placeholder</h1>
+    <Articles title="Projects" />
   </div>
 </template>
 
 <script>
+import Articles from '@/components/Articles'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Articles
+  }
 }
 </script>
