@@ -1,0 +1,32 @@
+version: '3.9'
+
+services: 
+  ghost:
+    image: ghost:4-alpine
+    container_name: ghost
+    environment: 
+      NODE_ENV: development
+    volumes: 
+      - ./ghost/content:/var/lib/ghost/content
+      - ./ghost/config.development.json:/var/lib/ghost/config.development.json
+    expose:
+      - "2368"
+    environment: 
+      - VIRTUAL_HOST=ghost.localhost
+      - VIRTUAL_PORT=2368
+
+  # server:
+  #   image: dockervue
+  #   container_name: dockervue
+  #   expose: 
+  #     - "80"
+  #   environment: 
+  #     - VIRTUAL_HOST=localhost
+  #     - VIRTUAL_PORT=80
+
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy
+    ports: 
+      - "80:80"
+    volumes: 
+      - /var/run/docker.sock:/tmp/docker.sock:ro
