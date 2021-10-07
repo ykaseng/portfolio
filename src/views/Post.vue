@@ -18,14 +18,13 @@ export default {
             post: {}
         }
     },
-    methods: {
-        async fetchPost () {
-            const post = await getSinglePost(this.$route.params.slug)
-            return post
-        }
-    },
     async created() {
-        this.post = await this.fetchPost()
+        try {
+            const p = await getSinglePost(this.$route.params.slug)
+            this.post = p
+        } catch(err) {
+            this.$router.push('/404')
+        }
     }
     
 }

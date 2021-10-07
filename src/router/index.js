@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 
 const routes = [
@@ -18,12 +18,18 @@ const routes = [
   {
     path: '/post/:slug',
     name: 'Post',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Post.vue')
-  }
+    component: () => import(/* webpackChunkName: "post" */ '../views/Post.vue')
+  },
+  { 
+    path: '/404', 
+    name: '404',
+    component: () => import(/* webpackChunkName: "404" */ '../views/NotFound.vue')
+  },
+  { path: '/:catchAll(.*)', redirect: '/404' }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
