@@ -3,7 +3,7 @@
     <Title title="Career History" />
     <Label title="vinda group sea" description="2018-2021" />
       <Description description="develop and maintain disributed microservices" />
-      <Description description="develop and maintain internal and external web applications" />
+      <Description description="develop and maintain web based applications" />
       <Description description="automate and streamline internal processes" />
     <Label title="rhino designs" description="2017-2018" />
       <Description description="develop and maintain api libraries" />
@@ -12,7 +12,7 @@
       <Description description="research and implement quantitative trading strategies" />
     <Label title="zalora malaysia" description="2013-2014" />
       <Description description="develop and maintain web based applications" />
-      <Description description="develop and maintain sms based customer and seller engagement system" />
+      <Description description="develop and maintain customer and seller engagement system" />
       <Description description="develop and maintain data visualization tools" />
   </div>
 </template>

@@ -1,18 +1,22 @@
 <template>
   <div class="container">
-      <h1>{{ post.title }}</h1>
+      <TitleAlt :title="post.title"/>
       <div class="content">
           <div v-html="post.html"></div>
       </div>
+    <router-link to="/verbose">EOF</router-link>
   </div>
 </template>
 
 <script>
 import { getSinglePost } from '@/api/posts'
+import TitleAlt from '@/components/TitleAlt'
 
 export default {
     name: 'Post',
-    components: {},
+    components: {
+        TitleAlt
+    },
     data() {
         return {
             post: {}
