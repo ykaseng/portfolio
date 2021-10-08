@@ -1,10 +1,11 @@
 <template>
     <div class="container">
         <Title :title=title />
+        <p>A random collection of poorly written, poorly researched articles on technology, philosophy, and more!</p>
         <div class="article-container">
             <ul class="article-list">
                 <li class="article-item" v-for="(post, index) in posts" :key="index">
-                    <router-link :to="{ path: '/post/' + post.slug }">{{ post.title }}</router-link>
+                    <router-link :to="{ path: '/verbose/' + post.slug }">{{ Date.parse(post.created_at)/1000 }} {{ post.title }}</router-link>
                 </li>
             </ul>
         </div>
@@ -50,6 +51,7 @@ export default {
     },
     async created() {
         this.posts = await this.fetchPosts()
+        console.log(this.posts)
     }
 }
 </script>

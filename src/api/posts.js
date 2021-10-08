@@ -20,6 +20,7 @@ export async function getSinglePost(postSlug) {
             slug: postSlug
         })
         .catch((err) => {
-            console.error(err);
+            console.error(err)
+            throw new Error({ status: 404, message: err.message })
         })
 }

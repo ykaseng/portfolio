@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Articles title="Projects" />
+    <Articles title="--verbose" />
   </div>
 </template>
 

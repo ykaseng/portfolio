@@ -1,15 +1,16 @@
 <template>
   <div class="contact-container">
-    <div class="name">
-        <b>Ka Seng</b>
-    </div>
-    <Title title="Contact Info" />
-    <Label title="email" description="me@ykaseng.com" />
+    <Title title="contact info" />
+    <Label title="whoami" description="ka seng" />
+    <Label title="email" description="root@ykaseng.com" style="max-height: 1.5em" />
+    <Label title="mastodon" description="@A2XNL2ngjdHaHK77" style="max-height: 1.5em" />
     <Label title="matrix" description="@Kr8iomyMjgbXD3Hr" style="max-height: 1.5em" />
     <Label title="location" description="63°25'59.99&quot;N 10°53'59.99&quot;E" style="height: 3em" />
-    <b>ADDITIONAL INFO</b>
-    <Label title="age" description="28" />
-    <Label title="gender" description="male" />
+    <Title title="secure contact" />
+    <Label title="pgp key" description="" />
+    <pre>curl https://ykaseng.com/pgp.pub | gpg --import</pre>
+    <Label title="fingerprint" description="" />
+    <pre>1153 92d5 cb68 dac2 a353 886f 8d08 135f 9a68 a716</pre>
   </div>
 </template>
 
@@ -27,26 +28,9 @@ export default {
 </script>
 
 <style scoped>
-.name {
-    margin-bottom: 1em;
-    color: var(--BLK-COLOR);
-
-    width: 70px;
-    /* height: 40px; */
-    position: relative;
-    background: var(--WHT-COLOR);
-}
-
-.name::after {
-  content: "";
-  position: absolute;
-  right: -10px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  /* border-right: 10px solid yellow; */
-  border-left: 10px solid var(--WHT-COLOR);
-  border-top: 15px solid var(--WHT-COLOR);
-  border-bottom: 10px solid transparent;
+pre {
+  background-color: var(--BLK-COLOR);
+  border: 1px solid var(--WHT-COLOR);
+  padding: 7.5px;
 }
 </style>
