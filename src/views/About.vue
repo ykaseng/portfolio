@@ -1,6 +1,6 @@
 <template>
   <div>
-      <p>A software developer; sci-fi nerd, ricer and coffee addict. Occcasionally <router-link to="/verbose">ramble</router-link> about technology, philosophy and books.</p>
+      <p class="description">A full-stack developer; sci-fi nerd, ricer and coffee addict. Occcasionally <router-link to="/verbose">ramble</router-link> about technology, philosophy and books.</p>
   </div>
   <div class="row g-0">
     <div class="contact-col col col-12 col-md-4">
@@ -49,5 +49,9 @@ export default {
   .contact-col, .background-col {
     padding-right: 1em;
   }
+}
+
+.description {
+  margin-top: 1em;
 }
 </style>

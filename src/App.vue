@@ -58,10 +58,35 @@ p {
   margin: unset;
 }
 
+pre {
+  background-color: var(--BLK-COLOR);
+  border: 1px solid var(--WHT-COLOR);
+  color: var(--GRN-COLOR);
+  padding: 7.5px;
+}
+
+code {
+  background-color: var(--BLK-COLOR);
+  color:var(--GRN-COLOR);
+  padding: .2em .4em;
+  border-radius: .2em;
+}
+
 #app {
   max-width: 800px;
   margin: 0 auto;
   padding: 1em;
+}
+
+a {
+  color: var(--GRN-COLOR);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--GRN-COLOR);
+}
+
+a:hover {
+  color: var(--PUR-COLOR);
+  border-bottom: 1px dotted var(--PUR-COLOR);
 }
 
 #nav a {

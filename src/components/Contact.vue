@@ -28,9 +28,4 @@ export default {
 </script>
 
 <style scoped>
-pre {
-  background-color: var(--BLK-COLOR);
-  border: 1px solid var(--WHT-COLOR);
-  padding: 7.5px;
-}
 </style>

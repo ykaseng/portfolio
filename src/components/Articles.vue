@@ -57,6 +57,10 @@ export default {
 </script>
 
 <style scoped>
+.article-container {
+    margin: 1em 0;
+}
+
 ul {
     list-style-type: none;
 }
