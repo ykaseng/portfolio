@@ -35,5 +35,7 @@ export default {
 </script>
 
 <style scoped>
-
+/deep/ p {
+    margin-bottom: 1em;
+}
 </style>

@@ -14,3 +14,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+/deep/ ul {
+  padding-left: unset;
+}
+</style>
