@@ -32,25 +32,25 @@ export default {
     to { visibility: visible;  }
 }
 
-/deep/ .description-container {
+::v-deep(.description-container) {
   float: left;
   justify-content: flex-start;
 }
 
-/deep/ .description {
+::v-deep(.description) {
   overflow: hidden;
   visibility: hidden;
   animation: slideDown .1s steps(1);
   animation-fill-mode: forwards;
 }
 
-/deep/ .container:nth-child(4) .description {
+::v-deep(.container:nth-child(4) .description) {
   animation-delay: 1.5s;
 }
-/deep/ .container:nth-child(7) .description {
+::v-deep(.container:nth-child(7) .description) {
   animation-delay: 1.6s;
 }
-/deep/ .container:nth-child(9) .description {
+::v-deep(.container:nth-child(9) .description) {
   animation-delay: 1.7s;
 }
 </style>

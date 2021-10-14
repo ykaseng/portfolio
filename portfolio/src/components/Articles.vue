@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container g-0">
         <Title :title=title />
         <p>A random collection of poorly written, poorly researched articles on technology, philosophy, and more!</p>
         <div class="article-container">

@@ -16,4 +16,8 @@ export default {
 .header-container {
   text-align: center;
 }
+
+.header-container a {
+  border-bottom: unset;
+}
 </style>
