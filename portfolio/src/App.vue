@@ -46,6 +46,10 @@ export default {
   --RST-COLOR:  #dfaf87;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: var(--BG-COLOR);
   font-family: Tamzen;

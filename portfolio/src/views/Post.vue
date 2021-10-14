@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container g-0">
       <TitleAlt :title="post.title"/>
       <div class="content">
           <div v-html="post.html"></div>
