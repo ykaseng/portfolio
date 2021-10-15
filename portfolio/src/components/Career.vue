@@ -42,48 +42,48 @@ export default {
   max-width: unset;
 }
 
-/deep/ .description-container {
+::v-deep(.description-container) {
   float: left;
   justify-content: flex-start;
 }
 
-/deep/ .description {
+::v-deep(.description) {
   overflow: hidden;
   visibility: hidden;
   animation: slideDown .1s steps(1);
   animation-fill-mode: forwards;
 }
 
-/deep/ .container:nth-child(3) .description {
+::v-deep(.container:nth-child(3) .description) {
   animation-delay: 1.8s;
 }
-/deep/ .container:nth-child(4) .description {
+::v-deep(.container:nth-child(4) .description) {
   animation-delay: 1.9s;
 }
-/deep/ .container:nth-child(5) .description {
+::v-deep(.container:nth-child(5) .description) {
   animation-delay: 2s;
 }
 
-/deep/ .container:nth-child(7) .description {
+::v-deep(.container:nth-child(7) .description) {
   animation-delay: 2.1s;
 }
-/deep/ .container:nth-child(8) .description {
+::v-deep(.container:nth-child(8) .description) {
   animation-delay: 2.2s;
 }
-/deep/ .container:nth-child(9) .description {
+::v-deep(.container:nth-child(9) .description) {
   animation-delay: 2.3s;
 }
-/deep/ .container:nth-child(10) .description {
+::v-deep(.container:nth-child(10) .description) {
   animation-delay: 2.4s;
 }
 
-/deep/ .container:nth-child(12) .description {
+::v-deep(.container:nth-child(12) .description) {
   animation-delay: 2.5s;
 }
-/deep/ .container:nth-child(13) .description {
+::v-deep(.container:nth-child(13) .description) {
   animation-delay: 2.6s;
 }
-/deep/ .container:nth-child(14) .description {
+::v-deep(.container:nth-child(14) .description) {
   animation-delay: 2.7s;
 }
 </style>
