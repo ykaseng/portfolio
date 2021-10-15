@@ -51,7 +51,6 @@ export default {
     },
     async created() {
         this.posts = await this.fetchPosts()
-        console.log(this.posts)
     }
 }
 </script>
