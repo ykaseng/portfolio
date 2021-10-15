@@ -1,7 +1,7 @@
 import GhostContentAPI from "@tryghost/content-api";
 
 const api = new GhostContentAPI({
-    url: 'http://ghost.localhost',
+    url: 'https://ghost.ykaseng.com',
     key: 'ea783748885243171810c82af2',
     version: "v3"
 })
