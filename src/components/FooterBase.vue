@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
 footer {
-    border-top: 1px solid var(--WHT-COLOR);
+    border-top: 1px solid var(--white-color);
 }
 
 :deep(ul) {

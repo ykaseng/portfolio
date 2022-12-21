@@ -10,6 +10,6 @@ export default {
 
 <style scoped>
 .container {
-    border: 1px solid var(--WHT-COLOR);
+    border: 1px solid var(--white-color);
 }
 </style>
