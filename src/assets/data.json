@@ -1,0 +1,98 @@
+{
+    "title": "ykaseng",
+    "blurb": "<p>A full-stack developer; sci-fi nerd, ricer and coffee addict. Occcasionally <a href='http://verbose.ykaseng.com'>ramble</a> about technology, philosophy and books.</p>",
+    "contact": {
+        "contactInfo": {
+            "whoami":"ka seng",
+            "email":"root@ykaseng.com",
+            "libera.chat":"a3lius",
+            "404.city":"aelius",
+            "location":"63°25'59.99&quot;N 10°53'59.99&quot;E"
+        },
+        "secureContactInfo": {
+            "pgp key":"curl https://ykaseng.com/pgp.pub | gpg --import",
+            "fingerprint":"DF64 50CD DDC1 C30B 1091  0861 949E 9133 C794 0DC1"
+        }
+    },
+    "skills": [
+        {
+            "area": "backend",
+            "proficiencies": { 
+                "go": 5,
+                "php": 4,
+                "sql": 4,
+                "graphql": 3
+            }
+        },
+        {
+            "area": "frontend",
+            "proficiencies": { 
+                "vue": 4,
+                "js": 4,
+                "html5": 5,
+                "css3": 5
+            }
+        },
+        {
+            "area": "dev ops",
+            "proficiencies": { 
+                "linux": 4,
+                "networking": 3,
+                "gcp": 4,
+                "aws": 3
+            }
+        }
+    ],
+    "background": {
+        "education": [
+            {
+                "where": "university of tasmania",
+                "when": "2014-2016",
+                "what": "(ba) information and communications technology"
+            }
+        ],
+        "awards": [
+            {
+                "where": "govhack",
+                "when": "2017",
+                "what": "participation"
+            },
+            {
+                "where": "uhack tasmania, open division",
+                "when": "2016",
+                "what": "1st runner up"
+            }
+        ]
+    },
+    "careers": [
+        {
+            "employer": "vinda group sea",
+            "duration": "2018-2022",
+            "responsibilities": [
+                "develop and maintain distributed microservices",
+                "develop and maintain web based applications",
+                "automate and streamline internal processes"
+            ]
+        },
+        {
+            "employer": "rhino designs",
+            "duration": "2017-2018",
+            "responsibilities": [
+                "develop and maintain api libraries",
+                "develop and maintain backtest server",
+                "develop and maintain scraper bots",
+                "research and implement quantitative trading strategies"
+            ]
+        },
+        {
+            "employer": "zalora malaysia",
+            "duration": "2013-2014",
+            "responsibilities": [
+                "develop and maintain web based applications",
+                "develop and maintain customer and seller engagement system",
+                "develop and maintain data visualization tools"
+            ]
+        }
+    ],
+    "footer": "<nav><ul><li><a href='https://ykaseng.com'>who</a></li><li><a href='https://verbose.ykaseng.com'>log</a></li><li><a href='https://github.com/ykaseng'>git</a></li><li><a href='https://verbose.ykaseng.com/feed.rss'>rss</a></li><li><a href='https://github.com/ykaseng/portfolio/blob/master/LICENSE'>cc by-sa 4.0</a></li></ul></nav>"
+}
