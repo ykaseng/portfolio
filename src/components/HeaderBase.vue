@@ -32,7 +32,7 @@ h2 {
     font-weight: bold;
     line-height: 1;
     display: inline-block;
-    color: var(--WHT-COLOR);
+    color: var(--white-color);
     z-index: 2;
     filter: drop-shadow(0 1px 3px);
 }
@@ -53,13 +53,13 @@ h2 {
 .layers::before {
     top: 10px;
     left: 15px;
-    color: var(--RED-COLOR);
+    color: var(--red-color);
 }
 
 .layers::after {
     top: 5px;
     left: -10px;
-    color: var(--CYN-COLOR);
+    color: var(--blue-color);
 }
 
 .paths {
@@ -391,19 +391,19 @@ h2 {
 
     20% {
         font-weight: 500;
-        color: var(--WHT-COLOR);
+        color: var(--white-color);
         filter: blur(0);
     }
 
     50% {
         font-weight: 300;
-        color: var(--CYN-COLOR);
+        color: var(--blue-color);
         filter: blur(2px);
     }
 
     60% {
         font-weight: 700;
-        color: var(--WHT-COLOR);
+        color: var(--white-color);
         filter: blur(0);
     }
 

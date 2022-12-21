@@ -26,17 +26,17 @@ button {
   text-align: right;
   position: relative;
   text-transform: uppercase;
-  background: var(--BG-COLOR);
-  color: var(--WHT-COLOR);
+  background: var(--black-color);
+  color: var(--white-color);
   /* height: 55px; */
   width: 3em;
   line-height: 1em;
-  border: 1px solid var(--WHT-COLOR);
+  border: 1px solid var(--white-color);
 }
 
 button.active, button:hover {
-  background: var(--WHT-COLOR);
-  color: var(--BLK-COLOR);
+  background: var(--white-color);
+  color: var(--black-color);
 }
 
 button i {
@@ -45,8 +45,8 @@ button i {
   bottom: -6px;
   width: 12px;
   height: 12px;
-  border-bottom: 1px solid var(--WHT-COLOR);
-  background-color: var(--BG-COLOR);
+  border-bottom: 1px solid var(--white-color);
+  background-color: var(--black-color);
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }

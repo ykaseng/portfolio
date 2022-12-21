@@ -22,15 +22,15 @@ export default {
 <style scoped>
 .container {
     text-transform: uppercase;
-    border: 1px solid var(--WHT-COLOR);
+    border: 1px solid var(--white-color);
 }
 
 .title-container {
   position: relative;
     width: 1em;
     flex-grow: 1;
-    border-right: 1px solid var(--WHT-COLOR);
-    background: var(--GRN-COLOR);
+    border-right: 1px solid var(--white-color);
+    background: var(--white-color);
 }
 
 .title-container i {
@@ -39,8 +39,8 @@ export default {
   bottom: -6px;
   width: 12px;
   height: 12px;
-  border-bottom: 1px solid var(--WHT-COLOR);
-  background-color: var(--BG-COLOR);
+  border-bottom: 1px solid var(--white-color);
+  background-color: var(--black-color);
   transform: rotate(-135deg);
 }
 

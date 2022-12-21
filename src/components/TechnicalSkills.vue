@@ -156,7 +156,7 @@ export default {
 
   position: relative;
   padding: .5em;
-  border: 1px solid var(--WHT-COLOR);
+  border: 1px solid var(--white-color);
 }
 
 .prof-summary-container::after {

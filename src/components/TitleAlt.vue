@@ -29,10 +29,10 @@ export default {
 
 @keyframes blink {
     0%{
-        border-bottom: 1px solid var(--BG-COLOR);
+        border-bottom: 1px solid var(--black-color);
     }
     100%{
-        border-bottom: 1px solid var(--WHT-COLOR);
+        border-bottom: 1px solid var(--white-color);
     }
 }
 
@@ -43,7 +43,7 @@ export default {
 
 .title-container {
     display: flex;
-    border-bottom: 1px solid var(--WHT-COLOR);
+    border-bottom: 1px solid var(--white-color);
     margin: 1em 0;
     overflow: hidden;
 
