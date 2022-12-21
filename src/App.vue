@@ -2,7 +2,6 @@
   <HeaderBase :title=data.title />
   <AboutContent :data=data />
   <FooterBase :footer=data.footer />
-  
 </template>
 
 <script>
@@ -99,6 +98,17 @@ code {
   max-width: 800px;
   margin: 0 auto;
   padding: 1em;
+  animation: zoom-in 1s linear 1;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.9, 0.95);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 a {
