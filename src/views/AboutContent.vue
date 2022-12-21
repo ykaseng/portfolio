@@ -49,10 +49,41 @@ export default {
 
 <style scoped>
 @media screen and (min-width: 768px) {
-
   .skills-col,
   .traits-col {
     padding-left: 1em;
+  }
+
+  .contact-col,
+  .background-col,
+  .career-col {
+    animation: skew-left 1s linear 1;
+  }
+
+  .skills-col,
+  .traits-col {
+
+    animation: skew-right 1s linear 1;
+  }
+
+  @keyframes skew-left {
+    0% {
+      transform: skewY(-1deg);
+    }
+
+    100% {
+      transform: skewY(0deg);
+    }
+  }
+
+  @keyframes skew-right {
+    0% {
+      transform: skewY(1deg);
+    }
+
+    100% {
+      transform: skewY(0deg);
+    }
   }
 }
 
