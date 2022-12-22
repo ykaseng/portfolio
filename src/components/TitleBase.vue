@@ -16,7 +16,7 @@ export default {
 <style scoped>
 @keyframes fillIn {
     0% {
-        background: linear-gradient(to left, var(--black-color) 50%, var(--white-color) 50%) right;
+        background: linear-gradient(to left, var(--bg-color) 50%, var(--white-color) 50%) right;
         background-size: contain;
     }
     25% {
@@ -24,7 +24,7 @@ export default {
         background-position: left;
     }
     100% {
-        background: linear-gradient(to left, var(--black-color) 50%, var(--white-color) 50%);
+        background: linear-gradient(to left, var(--bg-color) 50%, var(--white-color) 50%);
         background-size: 200%;
         background-position: left;
     }

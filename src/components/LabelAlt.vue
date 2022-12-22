@@ -40,7 +40,7 @@ export default {
   width: 12px;
   height: 12px;
   border-bottom: 1px solid var(--white-color);
-  background-color: var(--black-color);
+  background-color: var(--bg-color);
   transform: rotate(-135deg);
 }
 

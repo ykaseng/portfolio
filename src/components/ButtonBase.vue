@@ -46,7 +46,7 @@ button i {
   width: 12px;
   height: 12px;
   border-bottom: 1px solid var(--white-color);
-  background-color: var(--black-color);
+  background-color: var(--bg-color);
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
