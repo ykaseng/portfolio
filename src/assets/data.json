@@ -66,8 +66,16 @@
     },
     "careers": [
         {
+            "employer": "upwork",
+            "duration": "2022-PRESENT",
+            "responsibilities": [
+                "develop 3rd party api integration",
+                "develop and maintain web based applications"
+            ]
+        },
+        {
             "employer": "vinda group sea",
-            "duration": "2018-2022",
+            "duration": "2018-2021",
             "responsibilities": [
                 "develop and maintain distributed microservices",
                 "develop and maintain web based applications",
